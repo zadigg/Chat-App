@@ -10,7 +10,10 @@ import { db } from "../firebaseconfig";
 import { getFirestore } from "firebase/firestore";
 
 // Hellad
-
+git add . 
+git commit -m "UI" 
+git add .
+git push -u origin main
 function Sidebar() {
   const [user] = useAuthState(auth);
   const [snapshot, loading, error] = useCollection(collection(db, "chats"));
