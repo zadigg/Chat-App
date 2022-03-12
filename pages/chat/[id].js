@@ -9,7 +9,7 @@ import {
   Heading,
   Input,
   Text,
-} from "@chakra-ui/react";
+} from "@chakra-ui/React";
 
 const Topbar = () => {
   return (
@@ -43,7 +43,14 @@ function Chat() {
       <Flex flex={1} direction="column">
         <Topbar />
 
-        <Flex flex={1} direction="column" pt={4} mx={5} overflowX="scroll" sx={{scrollbarWidth: "none" }}>
+        <Flex
+          flex={1}
+          direction="column"
+          pt={4}
+          mx={5}
+          overflowX="scroll"
+          sx={{ scrollbarwidth: "none" }}
+        >
           <Flex
             bg="blue.100"
             w="fit-content"
