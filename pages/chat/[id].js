@@ -2,6 +2,12 @@ import { Flex } from "@chakra-ui/react";
 import React from "react";
 import Sidebar from "../../components/Sidebar";
 import Head from "next/head"
+
+
+const Topbar = () => {
+    
+}
+
 function Chat() {
   return (
     <Flex h="100vh">
