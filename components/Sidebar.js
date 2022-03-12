@@ -1,6 +1,8 @@
 import { ArrowLeftIcon } from "@chakra-ui/icons";
 import { Avatar, Button, Flex, IconButton, Text } from "@chakra-ui/react";
 import React from "react";
+import { signOut } from "firebase/auth";
+import { auth } from "../firebaseconfig";
 
 const Chat = () => {
   return (
