@@ -10,8 +10,6 @@ import { db } from "../firebaseconfig";
 import { getFirestore } from "firebase/firestore";
 
 
-
-// Hellad
 function Sidebar() {
   const [user] = useAuthState(auth);
   const [snapshot, loading, error] = useCollection(collection(db, "chats"));
