@@ -69,10 +69,9 @@ function Sidebar() {
         </div>
         {/*  */}
         <div className="w-[75%] xl:w-[75%] 2xl:w-[80%]   ">
-          {/* <div className="px-3 py-4 bg-gray-200 ">
+          <div className="px-3 py-4 bg-gray-200 ">
             <h2 className="font-bold">planck6260@gmail.com</h2>
-          </div> */}
-        
+          </div>
         </div>
       </div>
     </>
