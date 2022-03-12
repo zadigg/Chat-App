@@ -43,7 +43,7 @@ function Chat() {
       <Flex flex={1} direction="column">
         <Topbar />
 
-        <Flex flex={1} direction="column">
+        <Flex flex={1} direction="column" pt={4} mx={5} overflowX="scroll" sx={{scrollbarWidth: "none" }}>
           <Flex
             bg="blue.100"
             w="fit-content"
@@ -65,12 +65,230 @@ function Chat() {
             <Text>This is a dummy message</Text>
           </Flex>
           <Flex
+            bg="green.100"
+            w="fit-content"
+            minWidth="100px"
+            borderRadius="lg"
+            p={3}
+            m={1}
+            alignSelf="flex-end"
+          >
+            <Text>This is a dummy message</Text>
+          </Flex>
+          <Flex
             bg="blue.100"
             w="fit-content"
             minWidth="100px"
             borderRadius="lg"
             p={3}
             m={1}
+          >
+            <Text>This is a dummy message</Text> m={1}
+          </Flex>{" "}
+          <Flex
+            bg="blue.100"
+            w="fit-content"
+            minWidth="100px"
+            borderRadius="lg"
+            p={3}
+            m={1}
+          >
+            <Text>This is a dummy message</Text>
+          </Flex>
+          <Flex
+            bg="green.100"
+            w="fit-content"
+            minWidth="100px"
+            borderRadius="lg"
+            p={3}
+            m={1}
+            alignSelf="flex-end"
+          >
+            <Text>This is a dummy message</Text>
+          </Flex>{" "}
+          <Flex
+            bg="blue.100"
+            w="fit-content"
+            minWidth="100px"
+            borderRadius="lg"
+            p={3}
+            m={1}
+          >
+            <Text>This is a dummy message</Text> m={1}
+          </Flex>{" "}
+          <Flex
+            bg="blue.100"
+            w="fit-content"
+            minWidth="100px"
+            borderRadius="lg"
+            p={3}
+            m={1}
+          >
+            <Text>This is a dummy message</Text>
+          </Flex>
+          <Flex
+            bg="green.100"
+            w="fit-content"
+            minWidth="100px"
+            borderRadius="lg"
+            p={3}
+            m={1}
+            alignSelf="flex-end"
+          >
+            <Text>This is a dummy message</Text>
+          </Flex>{" "}
+          <Flex
+            bg="blue.100"
+            w="fit-content"
+            minWidth="100px"
+            borderRadius="lg"
+            p={3}
+            m={1}
+          >
+            <Text>This is a dummy message</Text> m={1}
+          </Flex>{" "}
+          <Flex
+            bg="blue.100"
+            w="fit-content"
+            minWidth="100px"
+            borderRadius="lg"
+            p={3}
+            m={1}
+          >
+            <Text>This is a dummy message</Text>
+          </Flex>
+          <Flex
+            bg="green.100"
+            w="fit-content"
+            minWidth="100px"
+            borderRadius="lg"
+            p={3}
+            m={1}
+            alignSelf="flex-end"
+          >
+            <Text>This is a dummy message</Text>
+          </Flex>{" "}
+          <Flex
+            bg="blue.100"
+            w="fit-content"
+            minWidth="100px"
+            borderRadius="lg"
+            p={3}
+            m={1}
+          >
+            <Text>This is a dummy message</Text> m={1}
+          </Flex>{" "}
+          <Flex
+            bg="blue.100"
+            w="fit-content"
+            minWidth="100px"
+            borderRadius="lg"
+            p={3}
+            m={1}
+          >
+            <Text>This is a dummy message</Text>
+          </Flex>
+          <Flex
+            bg="green.100"
+            w="fit-content"
+            minWidth="100px"
+            borderRadius="lg"
+            p={3}
+            m={1}
+            alignSelf="flex-end"
+          >
+            <Text>This is a dummy message</Text>
+          </Flex>{" "}
+          <Flex
+            bg="blue.100"
+            w="fit-content"
+            minWidth="100px"
+            borderRadius="lg"
+            p={3}
+            m={1}
+          >
+            <Text>This is a dummy message</Text> m={1}
+          </Flex>{" "}
+          <Flex
+            bg="blue.100"
+            w="fit-content"
+            minWidth="100px"
+            borderRadius="lg"
+            p={3}
+            m={1}
+          >
+            <Text>This is a dummy message</Text>
+          </Flex>
+          <Flex
+            bg="green.100"
+            w="fit-content"
+            minWidth="100px"
+            borderRadius="lg"
+            p={3}
+            m={1}
+            alignSelf="flex-end"
+          >
+            <Text>This is a dummy message</Text>
+          </Flex>{" "}
+          <Flex
+            bg="blue.100"
+            w="fit-content"
+            minWidth="100px"
+            borderRadius="lg"
+            p={3}
+            m={1}
+          >
+            <Text>This is a dummy message</Text> m={1}
+          </Flex>{" "}
+          <Flex
+            bg="blue.100"
+            w="fit-content"
+            minWidth="100px"
+            borderRadius="lg"
+            p={3}
+            m={1}
+          >
+            <Text>This is a dummy message</Text>
+          </Flex>
+          <Flex
+            bg="green.100"
+            w="fit-content"
+            minWidth="100px"
+            borderRadius="lg"
+            p={3}
+            m={1}
+            alignSelf="flex-end"
+          >
+            <Text>This is a dummy message</Text>
+          </Flex>{" "}
+          <Flex
+            bg="blue.100"
+            w="fit-content"
+            minWidth="100px"
+            borderRadius="lg"
+            p={3}
+            m={1}
+          >
+            <Text>This is a dummy message</Text> m={1}
+          </Flex>{" "}
+          <Flex
+            bg="blue.100"
+            w="fit-content"
+            minWidth="100px"
+            borderRadius="lg"
+            p={3}
+            m={1}
+          >
+            <Text>This is a dummy message</Text>
+          </Flex>
+          <Flex
+            bg="green.100"
+            w="fit-content"
+            minWidth="100px"
+            borderRadius="lg"
+            p={3}
+            m={1}
+            alignSelf="flex-end"
           >
             <Text>This is a dummy message</Text>
           </Flex>
