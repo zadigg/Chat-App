@@ -43,14 +43,7 @@ function Chat() {
       <Flex flex={1} direction="column">
         <Topbar />
 
-        <Flex
-          flex={1}
-          direction="column"
-          pt={4}
-          mx={5}
-          overflowX="scroll"
-          sx={{ scrollbarwidth: "none" }}
-        >
+        <Flex flex={1} direction="column" pt={4} mx={5} overflowX="scroll">
           <Flex
             bg="blue.100"
             w="fit-content"
