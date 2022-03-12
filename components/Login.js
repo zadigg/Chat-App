@@ -31,7 +31,10 @@ function Login() {
           >
             <ChatIcon w="100px" h="100px" color="white" />
           </Box>{" "}
-          <Button boxShadow="md" onClick={() => signInWithGoogle()}>
+          <Button
+            boxShadow="md"
+            onClick={() => signInWithGoogle("", { propmp: "select_account" })}
+          >
             Sign IN with Google
           </Button>
         </Stack>
