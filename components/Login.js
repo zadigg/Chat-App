@@ -1,6 +1,7 @@
 import React from "react";
-import { ChatAltIcon } from "@heroicons/react/outline";
 import Head from "next/head";
+import { ChatIcon } from "@chakra-ui/icons";
+import { Box, Button, Center, Stack } from "@chakra-ui/react";
 function Login() {
   return (
     <>
@@ -8,18 +9,27 @@ function Login() {
         <title>Login</title>
       </Head>
 
-      <div classNameName="flex justify-center items-center h-screen">
-        <div classNameName="bg-[#495567] h-[35%] w-[40%] md:w-[20%] space-y-5 rounded-xl">
-          <div classNameName="flex justify-center bg-gradient-to-r from-[#86269F] to-[#DA0B8C]  w-[35%] h-[30%] mx-auto mt-14 rounded-lg shadow-lg">
-            <ChatAltIcon classNameName="flex items-center text-white  w-[120px]" />
-          </div>
-          <div classNameName="flex justify-center ">
-            <button classNameName="bg-[#EDF1F6] px-2 py-1 rounded-md shadow-lg mt-5 font-bold font-sans">
-              SignIn with Google
-            </button>
-          </div>
-        </div>
-      </div>
+      <Center h="100vh">
+        <Stack
+          align="center"
+          bgColor="gray.600"
+          p={16}
+          rounded="3xl"
+          spacing={12}
+          boxShadow="lg"
+        >
+          <Box
+            bgColor="blue.500"
+            w="fit-content"
+            p={5}
+            rounded="3xl"
+            boxShadow="md"
+          >
+            <ChatIcon w="100px" h="100px" color="white" />
+          </Box>{" "}
+          <Button boxShadow="md">Sign IN with Google</Button>
+        </Stack>
+      </Center>
     </>
   );
 }
