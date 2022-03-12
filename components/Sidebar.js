@@ -10,10 +10,7 @@ import { db } from "../firebaseconfig";
 import { getFirestore } from "firebase/firestore";
 
 
-git add . 
-git commit -m "UI" 
-git add .
-git push -u origin main
+
 // Hellad
 function Sidebar() {
   const [user] = useAuthState(auth);
