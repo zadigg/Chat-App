@@ -5,7 +5,9 @@ import Head from "next/head"
 
 
 const Topbar = () => {
-    
+    return (
+        <Flex></Flex>
+    )
 }
 
 function Chat() {
