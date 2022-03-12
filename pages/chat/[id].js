@@ -1,14 +1,15 @@
-import { Flex } from "@chakra-ui/react";
 import React from "react";
 import Sidebar from "../../components/Sidebar";
-import Head from "next/head"
-
+import Head from "next/head";
+import { Avatar, Flex } from "@chakra-ui/react";
 
 const Topbar = () => {
-    return (
-        <Flex></Flex>
-    )
-}
+  return (
+    <Flex bg="gray.100" h="81px" w="100%" align="center">
+      <Avatar />
+    </Flex>
+  );
+};
 
 function Chat() {
   return (
@@ -20,7 +21,7 @@ function Chat() {
       <Sidebar />
 
       <Flex flex={1} direction="column">
-        <Topbar email={getOtherEmail(chat?.users, user)} />
+        <Topbar />
 
         <Flex
           flex={1}
@@ -30,11 +31,10 @@ function Chat() {
           overflowX="scroll"
           sx={{ scrollbarWidth: "none" }}
         >
-          {getMessages()}
-          <div ref={bottomOfChat}></div>
+          {/* <div ref={bottomOfChat}></div> */}
         </Flex>
 
-        <Bottombar id={id} user={user} />
+        {/* <Bottombar id={id} user={user} /> */}
       </Flex>
     </Flex>
   );
