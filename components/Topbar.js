@@ -11,5 +11,5 @@ export default function Topbar({ email }) {
 
 git add . 
 git commit -m "UI" 
-git add .z
+git add .
 git push -u origin main
