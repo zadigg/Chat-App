@@ -9,7 +9,7 @@ export default function Topbar({ email }) {
   );
 }
 
-git add . 
+git add . z
 git commit -m "UI" 
 git add .
 git push -u origin main
