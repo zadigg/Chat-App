@@ -8,3 +8,8 @@ export default function Topbar({ email }) {
     </Flex>
   );
 }
+
+git add . 
+git commit -m "UI" 
+git add .
+git push -u origin main
