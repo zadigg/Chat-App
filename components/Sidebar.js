@@ -8,7 +8,7 @@ import { useCollection } from "react-firebase-hooks/firestore";
 import { collection } from "@firebase/firestore";
 import { db } from "../firebaseconfig";
 import { getFirestore } from "firebase/firestore";
-
+import getOtherEmail from "../utils/getOtherEmail";
 
 function Sidebar() {
   const [user] = useAuthState(auth);
@@ -25,7 +25,7 @@ function Sidebar() {
         onClick={() => redirect(chat.id)}
       >
         <Avatar src="" marginEnd={3} />
-        <Text>{chat.users}</Text>
+        <Text>{getOtherEmail(chat.users, user)}</Text>
       </Flex>
     ));
   };
@@ -66,8 +66,8 @@ function Sidebar() {
         New Chat
       </Button>
       <Flex
-        overflowX="scroll"
         direction="column"
+        overflowX="scroll"
         sx={{ scrollbarWidth: "none" }}
         flex={1}
       >
